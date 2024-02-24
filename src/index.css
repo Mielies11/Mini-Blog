@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* base styles*/
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.navbar h1 {
+  color: #FF8080;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
+.navbar a:hover {
+  color: rgb(238, 108, 16);
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 3px solid #f0bfbf; 
+}
+.blog-preview:hover {
+box-shadow: 1px 3px 5px black;
+border-bottom: 1px solid #f0bfbf; 
+}
+.blog-preview h2{
+  font-size: 20px;
+  color:  #FF8080;
+  margin-bottom: 8px;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between; /* Align children at each end of the container */
+  align-items: center; /* Center vertically */
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+.blog-header button {
+  background-color: #FF8080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*niks*/
