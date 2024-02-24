@@ -45,4 +45,3 @@ const HomePage = () => {
 }
  
 export default HomePage;
-//niks

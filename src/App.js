@@ -18,4 +18,3 @@ function App() {
 }
 
 export default App;  // Exporting the App component
-//niks
